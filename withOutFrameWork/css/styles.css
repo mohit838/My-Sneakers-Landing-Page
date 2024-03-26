@@ -82,6 +82,35 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow 0.4s;
+}
+
+.nav {
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__close,
+.nav__toggle {
+  display: flex;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
