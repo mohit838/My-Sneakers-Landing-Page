@@ -1,2 +1,3 @@
-# Shoe-Shop-LandIng-Page
- Shoe Shop LandIng Page
+# My sneakers - Landing page
+
+My sneakers - Landing page
